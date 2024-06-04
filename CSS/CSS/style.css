@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css?family=Solway&display=swap');
+
+html {
+  --bg: #f6f6f6;
+  --main-block: white;
+  --fonts: 'Solway';
+  --main-color: #000;
+  --trans: 0.25s;
+  --color: #303036;
+  --border: #bfbfbf;
+  --selection: rgba(209, 209, 209, 0.4)
+}
+
+body{
+  padding: 0;
+  margin: 0;
+  background-color: var(--bg);
+  height: 100vh;
+  width: 100%;
+  color: var(--main-color);
+  font-family: var(--fonts), sans-serif;
+}
+::selection {
+  background-color: var(--selection)
+}
+.btn-open-window {
+  position: relative;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border: 2px solid var(--color);
+  background-color: transparent;
+  width: 150px;
+  cursor: pointer;
+  text-align: center;
+  border-radius: 7.5px;
+  margin-top: 50vh;
+  margin-left: 50vw;
+  transform: translate(-50%, -50%);
+  transition: var(--trans) all;
+}
+.btn-open-window:hover {
+  border: 2px solid var(--main-color);
+  background-color: var(--main-color);
+  box-shadow: 0px 0px 17px -5px rgba(255, 0, 0, 0.5);
+  color: #fff;
+}
+.window {
+  position: fixed;
+  height: 100vh;
+  width: 100%;
+  z-index: 999;
+  transition: var(--trans) all;
+  top: 0;
+  left: 0;
+  /* display: none;
+  opacity: 0; */
+}
+.window-block {
+  width: 400px;
+  position: absolute;
+  left: 50vw;
+  top: 50vh;
+  background-color: var(--main-block);
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  border-radius: 10px;
+}
+.window-shadow {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0,0,0,0.5);
+}
+.arrow-block {
+  position:absolute;
+  top: 10px;
+  right: 10px;
+  height: 20px;
+  width: 20px;
+  cursor: pointer;
+  opacity: 0.5;
+  transition: var(--trans);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  background-image: url('close.svg');
+}
+.arrow-block:hover {
+  opacity: 1;
+}
+.window-block-title {
+  font-size: 25px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 55px;
+}
+.window-block-input {
+  transition: var(--trans) all;
+  font-family: var(--fonts), sans-serif;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  display: block;
+  text-align: center;
+  margin-top: 15px;
+  border-radius: 5px;
+  border: 1px solid var(--border);
+  font-size: 16px;
+  width: 50%;
+  outline: none;
+}
+.window-block-btn {
+  left: 0;
+  right: 0;
+  margin: auto;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border: 2px solid var(--color);
+  background-color: transparent;
+  width: 150px;
+  cursor: pointer;
+  text-align: center;
+  border-radius: 7.5px;
+  margin-top: 145px;
+  transition: var(--trans) all;
+  position: relative;
+}
+.window-block-btn:hover {
+  border: 2px solid var(--main-color);
+  background-color: var(--main-color);
+  text-decoration-color: white;
+}
+.window-block-btn:after {
+  content: '';
+  width: 0;
+	height: 0;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-bottom: 10px solid black;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  transform: translate(0px,-100%);
+}
+.window-block-line {
+  margin-top: 40px;
+  height: 1px;
+  width: 100%;
+  border-bottom: 1px dashed var(--border);
+  margin-bottom: 15px;
+  position: relative;
+}
+.window-block-line:before {
+  content: 'Регистрация';
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: var(--main-block);
+  margin: auto;
+  font-size: 14px;
+  font-weight: 100;
+  color: var(--border);
+  z-index: 1;
+}
+.window-block-text  {
+  text-align: center;
+  font-size: 16px;
+  margin-bottom: 15px;
+  padding-top: 15px;
+  padding-bottom: 15;
+  position: relative;
+}
+.window-block-text > a{
+  color: var(--color);
+  text-decoration: none;
+  border-bottom: 1px dashed var(--color);
+}
+.window-block-text > a:hover{
+  border-bottom: 1px solid var(--color);
+}

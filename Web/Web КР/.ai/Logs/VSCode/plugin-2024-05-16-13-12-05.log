@@ -1,0 +1,16 @@
+[5/16/2024, 1:08:30 PM] info: Handled new configurationAieIntegrationServerUrl: 
+[5/16/2024, 1:12:05 PM] info: Logging was started
+[5/16/2024, 1:12:05 PM] info: Start application inspector initialization
+[5/16/2024, 1:12:05 PM] info: Hide developer mode UI
+[5/16/2024, 1:12:05 PM] info: Infrastructure Configurations: {"port":8000,"infrastructureAssemblyFolderPath":"C:\\Users\\ASUS\\AppData\\Local\\Application Inspector Analyzer","applicationResourcesFolderPath":"C:\\Users\\ASUS\\AppData\\Local\\Application Inspector Analyzer","scanTargetFolderPath":"c:\\ДАНИИЛ\\Atom\\Web КР-20240428T141316Z-001\\Web КР","isDebugging":false,"logLevel":{"q8_1":"Error","r8_1":5,"type":5,"key":"Settings.LogLevel.Error.Text"},"logDir":"c:\\ДАНИИЛ\\Atom\\Web КР-20240428T141316Z-001\\Web КР\\.ai\\Logs\\Infrastructure\\2024-05-16-13-12-05","applicationLocalDataFolderPath":"c:\\ДАНИИЛ\\Atom\\Web КР-20240428T141316Z-001\\Web КР\\.ai"}
+[5/16/2024, 1:12:05 PM] info: Start infrastructure initialization
+[5/16/2024, 1:12:05 PM] info: Infrastructure was started
+[5/16/2024, 1:12:07 PM] info: Initialize aie integration isn't initialized
+[5/16/2024, 1:12:07 PM] info: Infrastructure was initialized
+[5/16/2024, 1:12:07 PM] info: Infrastructure Installer was deleted
+[5/16/2024, 1:12:08 PM] info: Clean up logs files was started
+[5/16/2024, 1:12:08 PM] info: Clean up logs files was finished
+[5/16/2024, 1:12:10 PM] info: Project was created. Id: 7215f6ff-6e53-4948-848d-2e8fb38789d3
+[5/16/2024, 1:12:24 PM] info: Start scan command handled
+[5/16/2024, 1:14:57 PM] info: Scan done message handled
+[5/16/2024, 1:14:57 PM] info: Scan was finished with errors. Errors will be output to the output channel.

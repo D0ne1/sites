@@ -1,0 +1,14 @@
+[5/17/2024, 3:22:17 PM] info: Logging was started
+[5/17/2024, 3:22:17 PM] info: Start application inspector initialization
+[5/17/2024, 3:22:17 PM] info: Hide developer mode UI
+[5/17/2024, 3:22:17 PM] info: Infrastructure Configurations: {"port":8000,"infrastructureAssemblyFolderPath":"C:\\Users\\ASUS\\AppData\\Local\\Application Inspector Analyzer","applicationResourcesFolderPath":"C:\\Users\\ASUS\\AppData\\Local\\Application Inspector Analyzer","scanTargetFolderPath":"c:\\ДАНИИЛ\\Atom\\Web КР-20240428T141316Z-001\\Web КР","isDebugging":false,"logLevel":{"q8_1":"Error","r8_1":5,"type":5,"key":"Settings.LogLevel.Error.Text"},"logDir":"c:\\ДАНИИЛ\\Atom\\Web КР-20240428T141316Z-001\\Web КР\\.ai\\Logs\\Infrastructure\\2024-05-17-15-22-17","applicationLocalDataFolderPath":"c:\\ДАНИИЛ\\Atom\\Web КР-20240428T141316Z-001\\Web КР\\.ai"}
+[5/17/2024, 3:22:17 PM] info: Start infrastructure initialization
+[5/17/2024, 3:22:17 PM] info: Infrastructure was started
+[5/17/2024, 3:22:18 PM] info: Initialize aie integration isn't initialized
+[5/17/2024, 3:22:18 PM] info: Infrastructure was initialized
+[5/17/2024, 3:22:18 PM] info: Infrastructure Installer was deleted
+[5/17/2024, 3:22:19 PM] info: Clean up logs files was started
+[5/17/2024, 3:22:19 PM] info: Clean up logs files was finished
+[5/17/2024, 3:22:21 PM] info: Start rendering scan result. ScanResultId=ecb0afb8-f662-44d8-817e-b8859ffe2983, ProjectId=7215f6ff-6e53-4948-848d-2e8fb38789d3
+[5/17/2024, 3:22:21 PM] info: Scan was finished with errors. Errors will be output to the output channel.
+[5/17/2024, 3:22:21 PM] info: Rendering scan result was finished

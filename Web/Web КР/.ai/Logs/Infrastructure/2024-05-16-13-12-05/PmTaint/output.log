@@ -1,0 +1,22 @@
+
+AI.Taint.CLangs version:       not found or not supported
+AI.Taint version:              2.2.3.0 (03/19/2024 10:57:36)
+OS:                            Microsoft Windows NT 10.0.22621.0
+Config:                        RELEASE no debugger, no obfuscation
+Peak virtual/working set:      4884.69921875 / 106.48828125 MB, 64-bit
+
+Scan path or file:             c:\ДАНИИЛ\Atom\Web КР-20240428T141316Z-001\Web КР
+Thread count:                  4
+Finish date:                   05/16/2024 13:14:49
+Matches count:                 1 (1 PM + 0 Taint; 0 suppressed)
+Files count:                   2
+Lines/chars count:             136 / 5399
+Patterns count:                872 (218 PM + 654 Taint)
+File time ratio:               01.73%
+Tokens time ratio:             00.36%
+ParseTree time ratio:          15.07%
+Ust time ratio:                02.56%
+Match time ratio:              07.82%
+Pattern time ratio:            72.46%
+
+Time elapsed:                  00:05.240

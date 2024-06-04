@@ -1,0 +1,9 @@
+13:12:28.682  ERROR  @JavaScriptProcessor: Error "UnknownError"(null) was received with message:
+
+  c:\ДАНИИЛ\Atom\Web КР-20240428T141316Z-001\Web КР has no c:\ДАНИИЛ\Atom\Web КР-20240428T141316Z-001\Web КР\package.json to restore JS packages.
+
+13:14:54.762  ERROR  @ConfigurationProcessor: Stopping work of ConfigurationProcessor...
+––– details ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+
+System.Exception: Pipe disconnected! STATE: Broken
+––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––

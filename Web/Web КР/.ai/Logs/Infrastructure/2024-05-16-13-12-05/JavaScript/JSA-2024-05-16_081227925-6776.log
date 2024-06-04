@@ -1,0 +1,5 @@
+﻿#Thread(1) 2024-05-16 13:12:27.934: INFO: Platform: x64, framework: .NETCoreApp,Version=v5.0
+#Thread(1) 2024-05-16 13:12:27.942: INFO: Core version 1.5.0.0, started with command line: "C:\Users\ASUS\AppData\Local\Application Inspector Analyzer\utils\jsa\JSA.dll" --connection-type Pipe -p pipe-cd6ec84b-9a27-41c8-ab8b-5b828aacf92d-javascript --disable-memory-limit false --free-memory-percent-limit 14 --logs-dir "c:\ДАНИИЛ\Atom\Web КР-20240428T141316Z-001\Web КР\.ai\Logs\Infrastructure\2024-05-16-13-12-05\JavaScript"
+#Thread(10) 2024-05-16 13:12:28.441: INFO: Selected language provider: JSA.JavaScriptProvider v1.5.10.0
+#Thread(10) 2024-05-16 13:12:28.581: ERROR: c:\ДАНИИЛ\Atom\Web КР-20240428T141316Z-001\Web КР has no c:\ДАНИИЛ\Atom\Web КР-20240428T141316Z-001\Web КР\package.json to restore JS packages.
+#Thread(7) 2024-05-16 13:14:46.933: INFO: No valid entry points found.
